@@ -1,4 +1,4 @@
-package redrock.rhino.quilia;
+package redrock.rhino.quilai;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
