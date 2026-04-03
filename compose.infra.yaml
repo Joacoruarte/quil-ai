@@ -40,20 +40,6 @@ services:
       sh -c "ollama pull nomic-embed-text"
     restart: no
 
-  app:
-    build: .
-    ports:
-      - '8080:8080'
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-    depends_on:
-      pgvector:
-        condition: service_healthy
-      ollama-init:
-        condition: service_completed_successfully
-
 volumes:
   pgdata:
   ollama_data:
-

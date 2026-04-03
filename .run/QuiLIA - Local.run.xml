@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QuiLIA - Local" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="local" />
+    <envs>
+      <env name="SPRING_PROFILES_ACTIVE" value="local" />
+      <env name="SPRING_DOCKER_COMPOSE_FILE" value="compose.infra.yaml" />
+    </envs>
+    <module name="QuiLAI" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="redrock.rhino.quilai.QuiLAIApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

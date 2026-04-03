@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QuiLIA - Docker" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="docker" />
+    <envs>
+      <env name="SPRING_PROFILES_ACTIVE" value="docker" />
+    </envs>
+    <module name="QuiLAI" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="redrock.rhino.quilai.QuiLAIApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
