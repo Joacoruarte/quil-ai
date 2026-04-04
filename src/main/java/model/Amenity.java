@@ -1,0 +1,28 @@
+package model;
+
+public enum Amenity {
+    AIR_CONDITIONING,
+    HEATING,
+    BALCONY,
+    TERRACE,
+    PATIO,
+    GARDEN,
+    POOL,
+    GRILL,
+    FIREPLACE,
+    ELEVATOR,
+    STORAGE_ROOM,
+    LAUNDRY_ROOM,
+    DISHWASHER,
+    GYM,
+    SAUNA,
+    PLAYROOM,
+    COWORKING_SPACE,
+    MULTIPURPOSE_ROOM,
+    GARAGE,
+    SECURITY_DOOR,
+    DOORMAN,
+    CCTV,
+    PET_FRIENDLY,
+    WHEELCHAIR_ACCESS
+}

@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="QuiLIA - Docker" type="ShConfigurationType" factoryName="Shell Script">
-    <option name="SCRIPT_TEXT" value="docker compose -f compose.yaml up" />
+    <option name="SCRIPT_TEXT" value="docker compose -f compose.yaml up --build -d " />
     <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
     <option name="SCRIPT_PATH" value="" />
     <option name="SCRIPT_OPTIONS" value="" />
