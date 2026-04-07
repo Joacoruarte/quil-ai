@@ -1,4 +1,4 @@
-package model;
+package redrock.rhino.quilai.model;
 
 import jakarta.persistence.*;
 

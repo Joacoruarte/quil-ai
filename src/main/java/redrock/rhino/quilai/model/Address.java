@@ -1,4 +1,4 @@
-package model;
+package redrock.rhino.quilai.model;
 
 public class Address {
     private Double coordinateX;

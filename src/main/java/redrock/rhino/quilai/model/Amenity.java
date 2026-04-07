@@ -1,4 +1,4 @@
-package model;
+package redrock.rhino.quilai.model;
 
 public enum Amenity {
     AIR_CONDITIONING,

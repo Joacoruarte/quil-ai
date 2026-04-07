@@ -1,4 +1,4 @@
-package model;
+package redrock.rhino.quilai.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -18,7 +18,7 @@ public class Apartment{
     private String name;
 
     @Embedded
-    private Address adress;
+    private Address address;
 
     private long price;
     private int bedrooms;
